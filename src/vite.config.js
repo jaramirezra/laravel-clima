@@ -8,7 +8,8 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/app.js',
                 'resources/js/forms/main.js',
-                'resources/js/cities/main.js'
+                'resources/js/cities/main.js',
+                'resources/css/forms/style.css'
             ],
             refresh: true,
         }),
