@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+vendor/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.tar.gz
+*.rar
+
+# Base de datos
+*.sqlite
+*.db
