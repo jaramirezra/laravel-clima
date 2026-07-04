@@ -11,6 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
+        /**
+         * Crea la tabla 'cities' en la base de datos con las columnas necesarias.
+         */
         Schema::create('cities', function (Blueprint $table) {
             $table->id();
             $table->string('name')->unique();
