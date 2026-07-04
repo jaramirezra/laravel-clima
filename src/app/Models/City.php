@@ -13,6 +13,9 @@ class City extends Model
 
     public function forms()
     {
+        /**
+         * Define una relación uno a muchos con el modelo Form. Esto significa que una ciudad puede tener múltiples formularios asociados.
+         */
         return $this->hasMany(Form::class);
     }
 }

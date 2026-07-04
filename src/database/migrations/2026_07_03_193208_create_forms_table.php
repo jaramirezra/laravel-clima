@@ -11,6 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
+        /**
+         * Crea la tabla 'forms' en la base de datos con las columnas necesarias y establece la relación con la tabla 'cities'.
+         */
         Schema::create('forms', function (Blueprint $table) {
             $table->id();
             $table->foreignId('city_id')->constrained()->onDelete('cascade');
