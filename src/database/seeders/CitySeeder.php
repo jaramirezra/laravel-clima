@@ -9,6 +9,9 @@ class CitySeeder extends Seeder
 {
     public function run(): void
     {
+        /**
+         * Define un arreglo de nombres de ciudades que se utilizarán para poblar la tabla 'cities'.
+         */
         $cities = [
             'Bogotá', 'Medellín', 'Cali', 'Cartagena', 'Cúcuta', 'Bucaramanga',
             'Pereira', 'Santa Marta', 'Ibagué', 'Manizales', 'Villavicencio',

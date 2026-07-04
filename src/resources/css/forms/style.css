@@ -1,6 +1,19 @@
+/* 
+ * Estilos para los formularios y contenedores de color.
+ * Se aplican estilos generales a los formularios y contenedores de color.
+ * Se utiliza la fuente Arial y un fondo gris claro para el contenedor de color.
+ * Los formularios tienen un padding, borde y fondo específico para mejorar la apariencia.
+ * 
+ */
+
+.color-container {
+    font-family: Arial, sans-serif;
+    background-color: #cacaca !important;
+    margin: 0;
+    padding: 0;
+}
+
 .list-form {
-    max-width: 400px;
-    margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;

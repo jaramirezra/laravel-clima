@@ -14,6 +14,9 @@ class Form extends Model
 
     public function city()
     {
+        /**
+         * Define una relación inversa de uno a muchos con el modelo City. Esto significa que un formulario pertenece a una ciudad específica.
+         */
         return $this->belongsTo(City::class);
     }
 }
